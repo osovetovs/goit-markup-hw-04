@@ -429,11 +429,18 @@ img {
   width: 100%;
   height: 100%;
 
-  padding: 40px 32px;
-  transform: translateY(100%);
   /*
+  transform: translateY(100%);
   font-family: inherit;
   */
+}
+
+.portfolio-overlay-transform {
+  transform: translateY(100%);
+}
+
+.portfolio-overlay-padding {
+  padding: 40px 32px;
 }
 
 .portfolio-list-li:hover .portfolio-overlay {
