@@ -412,12 +412,14 @@ img {
   border-left: 1px solid var(--color-accent);
   border-bottom: 1px solid var(--color-accent);
 }
+
 .overlay-container {
   position: relative;
   overflow: hidden;
 }
+
 .portfolio-overlay {
-  
+  transform: translateY(100%);
   font-size: 16px;
   background-color: var(--color-primary-brand);
   color: var(--color-light);
@@ -428,18 +430,6 @@ img {
   letter-spacing: 0.02em;
   width: 100%;
   height: 100%;
-
-  /*
-  transform: translateY(100%);
-  font-family: inherit;
-  */
-}
-
-.portfolio-overlay-transform {
-  transform: translateY(100%);
-}
-
-.portfolio-overlay-padding {
   padding: 40px 32px;
 }
 
