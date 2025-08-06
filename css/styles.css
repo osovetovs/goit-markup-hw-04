@@ -288,6 +288,7 @@ img {
 }
 .social-team-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -308,6 +309,11 @@ img {
   background-color: var(--color-pressed-states);
   transition: var(--trans);
 }
+
+.social-list-li{
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team-title-text {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -439,7 +445,7 @@ img {
 .portfolio-list-link:hover .overlay,
 .portfolio-list-link:focus .overlay {
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .footer {
