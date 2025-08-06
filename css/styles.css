@@ -430,9 +430,11 @@ img {
   letter-spacing: 0.02em;
   width: 100%;
   height: 100%;
+
+  padding: 40px 32px;
   /*
   font-family: inherit;
-  padding: 40px 32px;
+  
   */
 }
 
