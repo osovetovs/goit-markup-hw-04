@@ -377,14 +377,14 @@ img {
   letter-spacing: 0.32px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-list-li:hover,
+/* .portfolio-list-li:hover,
 .portfolio-list-li:focus {
   color: var(--color-pressed-states);
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
-}
+} */
 .portfolio-list-title {
   color: var(--color-dark);
   text-align: left;
@@ -433,6 +433,9 @@ img {
 
 .portfolio-list-li:hover .portfolio-overlay {
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .footer {
